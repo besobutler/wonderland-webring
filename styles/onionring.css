@@ -5,19 +5,31 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-.varela-round-regular {
-  font-family: "Varela Round", sans-serif;
+
+.vollkorn-<header> {
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
 
+.literata-<paragraph> {
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+html {
+	font-size: 14px;
+	color: #222222;
+	font-family: "Literata";
+}
+
 #wonderland-web {
   margin: 0 auto;
   padding: 5px; /* creates some space around the widget, originally 15px */
-  font-size: 14px;
-  color: #222222;
-  font-family: "Varela Round";
 }
 
 #wonderland-web table {
@@ -35,29 +47,17 @@
 
 #wonderland-web .webring-prev {
   text-align:right;
-  font-size: 14px;
-  color: #222222;
-  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-info {
    text-align:center;
-   font-size: 14px;
-  color: #222222;
-  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-next {
   text-align:left;
-  font-size: 14px;
-  color: #222222;
-  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-links {
   font-size:small;
-  font-size: 14px;
-  color: #222222;
-  font-family: "Varela Round";
 }
 
