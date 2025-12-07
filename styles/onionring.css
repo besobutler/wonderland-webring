@@ -5,42 +5,37 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-
-.vollkorn-<header> {
-  font-family: "Vollkorn", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.literata-<paragraph> {
-  font-family: "Literata", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-html {
-	font-size: 14px;
-	color: #222222;
-	font-family: "Literata";
-}
-
 #wonderland-web {
   margin: 0 auto;
-  padding: 5px; /* creates some space around the widget, originally 15px */
+  padding: 15px; /* creates some space around the widget, originally 15px */
 }
 
 #wonderland-web table {
   background-color: #F2E2FF; /* makes the background color */
   margin: 0 auto; /* centers the widget */
   
+  /*new additions*/
   max-width: 600px;
   border: 2px solid #222222;
   border-radius: 20px;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  color: #222222;
+  font-size: 14px;
 }
 
+/*new additions*/
+#wonderland-web img {
+	max-width: 80%;
+	margin: auto;
+	display: block;
+}
+
+#wonderland-web a {
+	color: #222222;
+}
+
+/*untouched*/
 #wonderland-web table tr td {
   padding: 15px; /* creates some space between the links and text inside the widget */
 }
