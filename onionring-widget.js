@@ -61,7 +61,7 @@ else {
   <table>
 	<tr>
 		<td></td>
-		<td><img src="images/divider.png"></td>
+		<td><img src="https://wonderland-web.netlify.app/images/divider.png"></td>
 		<td></td>
 	</tr>
     <tr>
