@@ -35,17 +35,29 @@
 
 #wonderland-web .webring-prev {
   text-align:right;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-info {
    text-align:center;
+   font-size: 14px;
+  color: #222222;
+  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-next {
   text-align:left;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Varela Round";
 }
 
 #wonderland-web .webring-links {
   font-size:small;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Varela Round";
 }
 
