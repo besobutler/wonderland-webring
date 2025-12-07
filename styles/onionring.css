@@ -36,7 +36,7 @@ html {
   background-color: #F2E2FF; /* makes the background color */
   margin: 0 auto; /* centers the widget */
   
-  width: 600px;
+  max-width: 600px;
   border: 2px solid #222222;
   border-radius: 20px;
 }
