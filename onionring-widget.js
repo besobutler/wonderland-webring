@@ -59,8 +59,13 @@ else {
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
   <table>
+	<tr>
+		<td></td>
+		<td><img src="images/divider.png"></td>
+		<td></td>
+	</tr>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'>← prev</a></td>
       <td class='webring-info'>This site is part of the ${ringName}</br>
       <span class='webring-links'>
         ${randomText}
