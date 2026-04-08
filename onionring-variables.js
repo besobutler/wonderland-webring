@@ -8,7 +8,6 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://tsunderetion.neocities.org/',
-'https://romantickowloon.neocities.org/',
 'https://thevofiest.neocities.org/',
 'https://mistica-y-moka.neocities.org/'
 ];
